@@ -1,0 +1,2 @@
+# Unified-Siamese-Network-for-Multi-Dataset-Image-Similarity
+A deep learning project built with PyTorch that trains a Siamese Network across multiple datasets — MNIST, Fashion-MNIST, Omniglot, and CelebA — to learn a universal embedding space for visual similarity detection. It can compare two images and determine whether they belong to the same class or identity, even when coming from different datasets.
