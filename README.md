@@ -36,7 +36,6 @@ siamese_project/
 ├─ __init__.py
 ├─ check_dataset_shapes.py
 ├─ losses.py
-├─ siamese_datasets.ipynb
 ├─ siamese_datasets.py
 ├─ siamese_model.py
 ├─ train.py
@@ -274,6 +273,39 @@ with torch.no_grad():
     dist = torch.nn.functional.pairwise_distance(out1, out2)
     print("Euclidean distance:", dist.item())
 ```
+
+```
+---
+
+## 🚧 Current Phase (Work in Progress)
+
+This project is currently in the **training and evaluation phase**.  
+Model performance and embedding behavior are actively being tested across different datasets.  
+Further tuning of **margin**, **batch size**, and **learning rate** is ongoing to improve **cross-domain generalization**.
+
+---
+
+## 📈 Current Progress Snapshot
+
+- ✅ **Dataset loading and preprocessing**
+- ✅ **Model architecture design**
+- ✅ **Training pipeline with loss computation**
+- ✅ **Evaluation and ROC visualization**
+- 🚧 **Cross-domain testing** *(in progress)*
+- 🚧 **Streamlit web app** *(planned)*
+
+---
+
+## 💡 Summary
+
+The **Unified Siamese Network** is a flexible, research-friendly framework designed to explore  
+**visual similarity learning** across multiple domains.  
+
+It’s perfect for applications like:
+- 🧍‍♂️ **Face verification**
+- 👕 **Product or fashion item matching**
+- ✍️ **Handwriting comparison**
+- 🖼️ Any other **pairwise image similarity** task
 
 ---
 
