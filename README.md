@@ -275,8 +275,6 @@ with torch.no_grad():
 ```
 
 ```
----
-
 ## 🚧 Current Phase (Work in Progress)
 
 This project is currently in the **training and evaluation phase**.  
