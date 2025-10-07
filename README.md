@@ -274,7 +274,6 @@ with torch.no_grad():
     print("Euclidean distance:", dist.item())
 ```
 
-```
 ## 🚧 Current Phase (Work in Progress)
 
 This project is currently in the **training and evaluation phase**.  
