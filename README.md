@@ -248,8 +248,7 @@ python check_dataset_shapes.py
 ## 🧾 License & Contact
 
 **License:** MIT (see `LICENSE` in repo)  
-**Contact:** Ayush — `your_email@example.com`  
-YouTube: **Secrets of Existence**
+**Contact:** Ayush — `ayushsaraf200@gmail.com`  
 
 ---
 
